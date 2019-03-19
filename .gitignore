@@ -1,3 +1,5 @@
 /docker/mysql
 /wp-content/uploads
+/wp-content/themes/test/assets/bootstrap
 .idea
+Будет удалено wp-content/upgrade/
