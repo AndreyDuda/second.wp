@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-03 22:24:11+0000\n"
+"PO-Revision-Date: 2019-03-07 23:04:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,14 @@ msgstr ","
 msgid "number_format_thousands_sep"
 msgstr " "
 
+#: wp-includes/functions.php:6884
+msgid "Update PHP"
+msgstr "Обновить PHP"
+
+#: wp-includes/ms-site.php:67
+msgid "Could not retrieve site data."
+msgstr "Невозможно получить данные сайта."
+
 #: wp-includes/js/dist/block-library.js:2253
 msgid "Embed Crowdsignal (formerly Polldaddy) content."
 msgstr "Вставить содержимое Crowdsignal (ранее Polldaddy)."
@@ -53,7 +61,7 @@ msgstr[1] "Неудачные <span class=\"count\">(%s)</span>"
 msgstr[2] "Неудачные <span class=\"count\">(%s)</span>"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4907
+#: wp-includes/formatting.php:4909
 msgid "%1$s, and %2$s"
 msgstr "%1$s и %2$s"
 
@@ -62,7 +70,7 @@ msgid "Sorry, we cannot preview this embedded content in the editor."
 msgstr "Извините, предварительный просмотр этого встраиваемого содержимого в редакторе невозможен."
 
 #. translators: %s: database table name
-#: wp-includes/ms-site.php:1297
+#: wp-includes/ms-site.php:1311
 msgid "The %s table is not installed. Please run the network database upgrade."
 msgstr "Таблица %s не установлена. Пожалуйста, обновите базу данных через меню \"Обновить сеть\"."
 
@@ -80,61 +88,61 @@ msgstr "Форматы"
 msgid "Unable to submit this form, please try again."
 msgstr "Невозможно отправить эту форму, пожалуйста, попробуйте снова."
 
-#: wp-includes/ms-site.php:67
+#: wp-includes/ms-site.php:61
 msgid "Could not insert site into the database."
 msgstr "Невозможно добавить сайт в базу данных."
 
-#: wp-includes/ms-site.php:132 wp-includes/ms-site.php:185
-#: wp-includes/ms-site.php:644 wp-includes/ms-site.php:775
+#: wp-includes/ms-site.php:146 wp-includes/ms-site.php:199
+#: wp-includes/ms-site.php:658 wp-includes/ms-site.php:789
 msgid "Site ID must not be empty."
 msgstr "ID сайта не может быть пустым."
 
-#: wp-includes/ms-site.php:137 wp-includes/ms-site.php:190
+#: wp-includes/ms-site.php:151 wp-includes/ms-site.php:204
 msgid "Site does not exist."
 msgstr "Сайт не существует."
 
-#: wp-includes/ms-site.php:151
+#: wp-includes/ms-site.php:165
 msgid "Could not update site in the database."
 msgstr "Невозможно обновить сайт в базе данных."
 
-#: wp-includes/ms-site.php:240
+#: wp-includes/ms-site.php:254
 msgid "Could not delete site from the database."
 msgstr "Невозможно удалить сайт из базы данных."
 
-#: wp-includes/ms-site.php:565
+#: wp-includes/ms-site.php:579
 msgid "Site domain must not be empty."
 msgstr "Домен сайта не может быть пустым."
 
-#: wp-includes/ms-site.php:570
+#: wp-includes/ms-site.php:584
 msgid "Site path must not be empty."
 msgstr "Путь к сайту не может быть пустым."
 
-#: wp-includes/ms-site.php:575
+#: wp-includes/ms-site.php:589
 msgid "Site network ID must be provided."
 msgstr "Должен быть указан сетевой идентификатор сайта."
 
-#: wp-includes/ms-site.php:582
+#: wp-includes/ms-site.php:596
 msgid "Both registration and last updated dates must be provided."
 msgstr "Должны быть указаны дата регистрации и дата последнего обновления."
 
-#: wp-includes/ms-site.php:649 wp-includes/ms-site.php:780
+#: wp-includes/ms-site.php:663 wp-includes/ms-site.php:794
 msgid "Site with the ID does not exist."
 msgstr "Сайт с указанным ID не существует."
 
 #. translators: %d: site ID
-#: wp-includes/ms-site.php:666
+#: wp-includes/ms-site.php:680
 msgid "Site %d"
 msgstr "Сайт %d"
 
-#: wp-includes/ms-site.php:653
+#: wp-includes/ms-site.php:667
 msgid "The site appears to be already initialized."
 msgstr "Похоже, что этот сайт уже проинициализирован."
 
-#: wp-includes/ms-site.php:784
+#: wp-includes/ms-site.php:798
 msgid "The site appears to be already uninitialized."
 msgstr "Похоже, что этот сайт уже деинициализирован."
 
-#: wp-includes/ms-site.php:593
+#: wp-includes/ms-site.php:607
 msgid "Both registration and last updated dates must be valid dates."
 msgstr "Дата регистрации и дата последнего обновления должны быть действительными датами."
 
@@ -194,7 +202,7 @@ msgid "This resource is provided by your web host, and is specific to your site.
 msgstr "Данная ссылка предоставлена вашим хостингом и является специфичной для вашего сайта. Для подробной информации смотрите <a href=\"%s\" target=\"_blank\">официальную документацию WordPress</a>."
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4905
+#: wp-includes/formatting.php:4907
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
@@ -2778,6 +2786,7 @@ msgstr "Минуты"
 #. translators: accessibility text
 #: wp-includes/widgets/class-wp-widget-custom-html.php:310
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
+#: wp-includes/functions.php:6886
 #: wp-includes/class-wp-customize-manager.php:4270
 #: wp-includes/class-wp-customize-manager.php:5572
 #: wp-includes/class-wp-customize-manager.php:5593
@@ -3428,7 +3437,7 @@ msgid "Invalid action name."
 msgstr "Неверное имя действия."
 
 #. translators: %d: Comment ID
-#: wp-includes/comment.php:3501
+#: wp-includes/comment.php:3503
 msgid "Comment %d contains personal data but could not be anonymized."
 msgstr "Комментарий %d содержит персональные данные, но не может быть анонимизирован."
 
@@ -3488,39 +3497,39 @@ msgstr ""
 msgid "Personal data was found for this user but some of the personal data found was not erased."
 msgstr "Персональные данные для этого пользователя найдены, но некоторые найденные данные не были удалены."
 
-#: wp-includes/comment.php:3315 wp-includes/comment.php:3424
+#: wp-includes/comment.php:3317 wp-includes/comment.php:3426
 msgid "WordPress Comments"
 msgstr "Комментарии WordPress"
 
-#: wp-includes/comment.php:3350
+#: wp-includes/comment.php:3352
 msgid "Comment Author"
 msgstr "Автор комментария"
 
-#: wp-includes/comment.php:3351
+#: wp-includes/comment.php:3353
 msgid "Comment Author Email"
 msgstr "Адрес email автора комментария"
 
-#: wp-includes/comment.php:3352
+#: wp-includes/comment.php:3354
 msgid "Comment Author URL"
 msgstr "URL автора комментария"
 
-#: wp-includes/comment.php:3353
+#: wp-includes/comment.php:3355
 msgid "Comment Author IP"
 msgstr "IP автора комментария"
 
-#: wp-includes/comment.php:3354
+#: wp-includes/comment.php:3356
 msgid "Comment Author User Agent"
 msgstr "User Agent автора комментария"
 
-#: wp-includes/comment.php:3355
+#: wp-includes/comment.php:3357
 msgid "Comment Date"
 msgstr "Дата комментария"
 
-#: wp-includes/comment.php:3356
+#: wp-includes/comment.php:3358
 msgid "Comment Content"
 msgstr "Содержимое комментария"
 
-#: wp-includes/comment.php:3357
+#: wp-includes/comment.php:3359
 msgid "Comment URL"
 msgstr "URL комментария"
 
@@ -6693,7 +6702,7 @@ msgstr "Для создания комментария необходимо ук
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:403
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:420
-#: wp-includes/comment.php:3250
+#: wp-includes/comment.php:3252
 msgid "Sorry, you must be logged in to comment."
 msgstr "Извините, для отправки комментария необходимо авторизоваться."
 
@@ -7560,12 +7569,12 @@ msgstr ""
 "Вы уверены, что хотите сделать это?\n"
 "Все несохранённые изменения в комментарии будут потеряны."
 
-#: wp-includes/formatting.php:4665
+#: wp-includes/formatting.php:4667
 msgid "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 
 #. translators: %s: Codex URL
-#: wp-includes/formatting.php:4664
+#: wp-includes/formatting.php:4666
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "При использовании произвольной структуры необходимо указать хотя бы один элемент. <a href=\"%s\">Узнать больше</a>"
 
@@ -8572,7 +8581,7 @@ msgstr "Скрыть/показать секцию: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:2091 wp-includes/formatting.php:3751
+#: wp-includes/script-loader.php:2091 wp-includes/formatting.php:3753
 #: wp-includes/js/dist/editor.js:29052
 msgctxt "Word count type. Do not translate!"
 msgid "words"
@@ -9994,7 +10003,7 @@ msgstr "Плагинов не найдено. Попробуйте другой 
 msgid "You are customizing %s"
 msgstr "Вы настраиваете %s"
 
-#: wp-includes/comment.php:3299
+#: wp-includes/comment.php:3301
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>ОШИБКА</strong>: Не удалось сохранить комментарий. Пожалуйста, повторите попытку позже."
 
@@ -11118,7 +11127,7 @@ msgstr "Неудачно"
 
 #. translators: Time difference between two dates, in weeks. %s: Number of
 #. weeks
-#: wp-includes/formatting.php:3638
+#: wp-includes/formatting.php:3640
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s неделя"
@@ -11127,7 +11136,7 @@ msgstr[2] "%s недель"
 
 #. translators: Time difference between two dates, in months. %s: Number of
 #. months
-#: wp-includes/formatting.php:3645
+#: wp-includes/formatting.php:3647
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s месяц"
@@ -11136,7 +11145,7 @@ msgstr[2] "%s месяцев"
 
 #. translators: Time difference between two dates, in years. %s: Number of
 #. years
-#: wp-includes/formatting.php:3652
+#: wp-includes/formatting.php:3654
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s год"
@@ -12150,7 +12159,7 @@ msgid "&#8243;"
 msgstr "&#8243;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:98 wp-includes/formatting.php:5228
+#: wp-includes/formatting.php:98 wp-includes/formatting.php:5230
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#171;"
@@ -12273,15 +12282,15 @@ msgstr "Размер файла «%s» превышает максимальны
 msgid "Feedback"
 msgstr "Обратная связь"
 
-#: wp-includes/comment.php:3258
+#: wp-includes/comment.php:3260
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, заполните необходимые поля (имя, e-mail)."
 
-#: wp-includes/comment.php:3260
+#: wp-includes/comment.php:3262
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите корректный адрес e-mail."
 
-#: wp-includes/comment.php:3285
+#: wp-includes/comment.php:3287
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите комментарий."
 
@@ -12305,7 +12314,7 @@ msgstr "Документация"
 msgid "Support Forums"
 msgstr "Форумы поддержки"
 
-#: wp-includes/general-template.php:3953 wp-includes/formatting.php:3740
+#: wp-includes/general-template.php:3953 wp-includes/formatting.php:3742
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -12372,7 +12381,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Синяя"
 
-#: wp-includes/formatting.php:4646
+#: wp-includes/formatting.php:4648
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Вы указали некорректный часовой пояс. Пожалуйста, выберите правильное значение."
 
@@ -12793,7 +12802,7 @@ msgid "You have searched the %1$s blog archives for <strong>&#8216;%2$s&#8217;</
 msgstr "Вы искали <strong>&laquo;%3$s&raquo;</strong> в архиве блога <a href=\"%1$s/\">&laquo;%2$s&raquo;</a>. Если вам не удалось ничего найти в результатах поиска, можно попробовать одну из следующих ссылок."
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4909
+#: wp-includes/formatting.php:4911
 msgid "%1$s and %2$s"
 msgstr "%1$s и %2$s"
 
@@ -12999,7 +13008,7 @@ msgid "New %1$s Site: %2$s"
 msgstr "В сети «%1$s» новый сайт: %2$s"
 
 #: wp-includes/ms-functions.php:679 wp-includes/ms-functions.php:1307
-#: wp-includes/ms-site.php:610
+#: wp-includes/ms-site.php:624
 msgid "Sorry, that site already exists!"
 msgstr "Извините, такой сайт уже существует!"
 
@@ -13062,15 +13071,15 @@ msgstr "Этот сайт заархивирован или заморожен."
 msgid "The given object ID is not that of a menu item."
 msgstr "Указанный ID объекта не принадлежит элементу меню."
 
-#: wp-includes/formatting.php:4464
+#: wp-includes/formatting.php:4466
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Введённый адрес e-mail не является корректным. Пожалуйста, введите корректный адрес e-mail."
 
-#: wp-includes/formatting.php:4574
+#: wp-includes/formatting.php:4576
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Введённый адрес WordPress не является корректным URL. Пожалуйста, введите корректный URL."
 
-#: wp-includes/formatting.php:4587
+#: wp-includes/formatting.php:4589
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Введённый адрес сайта не является корректным URL. Пожалуйста, введите корректный URL."
 
@@ -15013,7 +15022,7 @@ msgstr "Что теперь делать?"
 
 #. translators: Time difference between two dates, in minutes (min=minute). %s:
 #. Number of minutes
-#: wp-includes/formatting.php:3617
+#: wp-includes/formatting.php:3619
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s минута"
@@ -15023,7 +15032,7 @@ msgstr[2] "%s минут"
 #. translators: Time duration in hour or hours.
 #. translators: Time difference between two dates, in hours. %s: Number of
 #. hours
-#: wp-includes/functions.php:377 wp-includes/formatting.php:3624
+#: wp-includes/functions.php:377 wp-includes/formatting.php:3626
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s час"
@@ -15031,7 +15040,7 @@ msgstr[1] "%s часа"
 msgstr[2] "%s часов"
 
 #. translators: Time difference between two dates, in days. %s: Number of days
-#: wp-includes/formatting.php:3631
+#: wp-includes/formatting.php:3633
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s день"
@@ -15597,7 +15606,7 @@ msgstr "Обновить рубрику"
 msgid "Undo"
 msgstr "Отменить"
 
-#: wp-includes/script-loader.php:1485 wp-includes/comment.php:3400
+#: wp-includes/script-loader.php:1485 wp-includes/comment.php:3402
 msgid "Comments"
 msgstr "Комментарии"
 
@@ -15974,7 +15983,7 @@ msgid "Username"
 msgstr "Имя пользователя"
 
 #. translators: Name of a comment's author after being anonymized.
-#: wp-includes/comment.php:3470 wp-includes/class-wp-theme.php:835
+#: wp-includes/comment.php:3472 wp-includes/class-wp-theme.php:835
 #: wp-includes/comment-template.php:31
 msgid "Anonymous"
 msgstr "Аноним"
