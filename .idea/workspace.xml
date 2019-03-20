@@ -3,21 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="47471cba-210b-4669-ba77-3f6c9498ac8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/8a77d9472e9f.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/auto.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/wp_second/wp_options.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_second/wp_options.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/wp_second/wp_postmeta.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_second/wp_postmeta.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_second/wp_posts.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_second/wp_posts.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_second/wp_usermeta.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_second/wp_usermeta.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/test/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="355">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -39,17 +33,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+            <state relative-caret-position="468">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -57,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="241">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -66,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -75,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -104,13 +98,13 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
-        <option value="$PROJECT_DIR$/wp-content/themes/test/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/test/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/test/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/test/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/test/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/test/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/functions.php" />
       </list>
     </option>
   </component>
@@ -164,6 +158,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -200,7 +195,7 @@
       <workItem from="1552905442128" duration="3671000" />
       <workItem from="1552913762939" duration="2023000" />
       <workItem from="1553008836179" duration="10231000" />
-      <workItem from="1553078346658" duration="4240000" />
+      <workItem from="1553078346658" duration="8066000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1552905463346</created>
@@ -244,11 +239,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553018289565</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="thumbnails">
+      <created>1553083346727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553083346727</updated>
+    </task>
+    <task id="LOCAL-00008" summary="paginate">
+      <created>1553086137367</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553086137367</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20836000" />
+    <option name="totallyTimeSpent" value="24662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,7 +272,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21077909" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21077909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,7 +284,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" visible="true" weight="0.15358745" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" visible="true" weight="0.34192824" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994664" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053364" side_tool="true" weight="0.3295964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -314,7 +323,9 @@
     <MESSAGE value="create theme and include bootstrap" />
     <MESSAGE value="include scripts and style" />
     <MESSAGE value="loop wp" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop wp" />
+    <MESSAGE value="thumbnails" />
+    <MESSAGE value="paginate" />
+    <option name="LAST_COMMIT_MESSAGE" value="paginate" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -369,45 +380,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="306">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        <state relative-caret-position="468">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="90">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>

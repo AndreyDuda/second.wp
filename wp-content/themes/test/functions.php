@@ -18,6 +18,7 @@ function test_scripts() {
 add_action('wp_enqueue_scripts', 'test_scripts');
 
 function test_setup() {
+	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
 	add_image_size('mini-thumbnails', 100, 100, true);
 }
