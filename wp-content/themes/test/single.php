@@ -7,7 +7,10 @@
 				<?php the_post(); ?>
 				<div class="col-md-12">
 					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
+						<?= (has_post_thumbnail()) ?
+							the_post_thumbnail('', ['class' => 'card-img-top', 'alt'   => 'Card image cap']):
+							'<img class="card-img-top" src="https://picsum.photos/1275/680?image=0" alt="Card image cap">'
+						?>
 						<div class="card-body">
 							<h5 class="card-title"><?php the_title() ?></h5>
 							<p class="card-text"><?php the_content() ?></p>
