@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/Test_Menu.php';
 
 function test_scripts() {
 	wp_enqueue_style('test-bootstrapcss', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css');
@@ -21,6 +22,10 @@ function test_setup() {
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
 	add_image_size('mini-thumbnails', 100, 100, true);
+	register_nav_menus(array(
+		'header_menu' => 'Меню в шапке',
+		'footer_menu' => 'Меню в футере'
+	));
 }
 
 add_action('after_setup_theme', 'test_setup');
@@ -33,3 +38,4 @@ function my_navigation_template() {
 }
 
 add_filter('navigation_markup_template', 'my_navigation_template');
+

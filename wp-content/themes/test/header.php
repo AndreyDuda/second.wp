@@ -17,6 +17,15 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
+    <?php wp_nav_menu(array(
+            'theme_location'  => 'header_menu',
+            'container'       => 'div',
+            'container_class' => 'collapse navbar-collapse',
+            'container_id'    => 'navbarSupportedContent',
+            'menu_class'      => 'navbar-nav mr-auto',
+            'walker'          => new Test_Menu(),
+    )) ?>
+
     <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
