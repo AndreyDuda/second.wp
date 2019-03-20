@@ -23,3 +23,12 @@ function test_setup() {
 }
 
 add_action('after_setup_theme', 'test_setup');
+
+function my_navigation_template() {
+	return '
+	<nav class="navigation" role="navigation">
+		<div class="nav-links">%3$s</div>
+	</nav>';
+}
+
+add_filter('navigation_markup_template', 'my_navigation_template');

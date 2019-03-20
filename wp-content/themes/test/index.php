@@ -23,7 +23,11 @@
             </div>
         </div>
     <?php endwhile; ?>
-
+    <?php the_posts_pagination([
+            'end_size' => 2,
+            'mid)size' => 2,
+            'type'     => 'list'
+    ]); ?>
 <?php else: ?>
     <p> Постов нет ...</p>
 <?php endif; ?>
