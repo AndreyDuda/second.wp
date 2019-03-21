@@ -39,3 +39,12 @@ function my_navigation_template() {
 
 add_filter('navigation_markup_template', 'my_navigation_template');
 
+function test_widget_init() {
+	register_sidebar(array(
+		'name'        => 'Сайдбар справа',
+		'id'          => 'right-sidebar',
+		'description' => 'Область для виджетов в сайдбаре справа'
+	));
+}
+
+add_action('widgets_init', 'test_widget_init');

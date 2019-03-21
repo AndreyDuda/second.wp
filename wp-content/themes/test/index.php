@@ -2,6 +2,8 @@
 
 <div class="container">
     <div class="row">
+        <div class="col">
+            <div class="row">
 <?php if(have_posts()): ?>
     <?php while(have_posts()): ?>
         <?php the_post(); ?>
@@ -31,8 +33,10 @@
 <?php else: ?>
     <p> Постов нет ...</p>
 <?php endif; ?>
+            </div>
+        </div>
+        <?php get_sidebar() ?>
+    </div>
+</div>
 
 <?php get_footer(); ?>
-
-</div>
-</div>
