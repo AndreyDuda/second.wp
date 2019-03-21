@@ -6,4 +6,16 @@
         } );
     } );
 
+    wp.customize( 'test_phone', function( value ) {
+        value.bind( function( newval ) {
+            $('.test-phone span').text(newval);
+        } );
+    } );
+
+    wp.customize( 'test_show_phone', function( value ) {
+        value.bind( function( newval ) {
+            false === newval ? $('.test-phone').fadeOut() : $('.test-phone').fadeIn();
+        } );
+    } );
+
 })(jQuery);

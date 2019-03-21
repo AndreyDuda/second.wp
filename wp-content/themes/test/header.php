@@ -26,14 +26,19 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <?php wp_nav_menu(array(
-            'theme_location'  => 'header_menu',
-            'container'       => 'div',
-            'container_class' => 'collapse navbar-collapse',
-            'container_id'    => 'navbarSupportedContent',
-            'menu_class'      => 'navbar-nav mr-auto',
-            'walker'          => new Test_Menu(),
-    )) ?>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <?php wp_nav_menu(array(
+		    'theme_location'  => 'header_menu',
+		    'container'       => 'div',
+
+		    'container_id'    => 'navbarSupportedContent',
+		    'menu_class'      => 'navbar-nav mr-auto',
+		    'walker'          => new Test_Menu(),
+	    )) ?>
+        <p class="test-phone"<?php if(false === get_theme_mod('test_show_phone')) echo ' style="display: none;"' ?>>
+            Телефон: <span><?php echo get_theme_mod('test_phone'); ?></span>
+        </p>
+    </div>
 
 </nav>
 

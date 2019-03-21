@@ -83,6 +83,37 @@ function test_customize_register($wp_customize){
 			)
 		)
 	);
+
+	// custom section
+	$wp_customize->add_section('test_site_data', array(
+		'title' => 'Информация сайта',
+		'priority' => 10,
+	));
+	$wp_customize->add_setting('test_phone', array(
+		'default' => '',
+		'transport'=>'postMessage',
+	));
+	$wp_customize->add_control(
+		'test_phone',
+		array(
+			'label' => 'Телефон',
+			'section' => 'test_site_data',
+			'type' => 'text',
+		)
+	);
+
+	$wp_customize->add_setting('test_show_phone', array(
+		'default' => true,
+		'transport'=>'postMessage',
+	));
+	$wp_customize->add_control(
+		'test_show_phone',
+		array(
+			'label' => 'Показывать телефон',
+			'section' => 'test_site_data',
+			'type' => 'checkbox',
+		)
+	);
 }
 add_action('customize_register', 'test_customize_register');
 
