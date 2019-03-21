@@ -10,9 +10,13 @@
 
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class() ?>>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="<?= home_url() ?>"><?php bloginfo('name') ?></a>
+    <?php if (has_custom_logo()) :?>
+        <?php the_custom_logo()?>
+    <?php else :?>
+        <a class="navbar-brand" href="<?= home_url() ?>"><?php bloginfo('name') ?></a>
+    <?php endif; ?>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
