@@ -13,6 +13,7 @@ function test_scripts() {
 		/*wp_enqueue_script('jquery');*/
 		wp_enqueue_script('test-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', array('jquery'));
 		wp_enqueue_script('test-bootstrapjs', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap.min.js');
+
 	});
 }
 
@@ -67,15 +68,16 @@ add_action('widgets_init', 'test_widget_init');
 // Customizer
 function test_customize_register($wp_customize){
 	$wp_customize->add_setting('test_link_color', array(
-		'default' => '#007bff',
+		'default'           => '#007bff',
 		'sanitize_callback' => 'sanitize_hex_color',
+		'transport'         => 'postMessage'
 	));
 	$wp_customize->add_control(
 		new WP_Customize_Color_Control(
 			$wp_customize,
 			'test_link_color',
 			array(
-				'label' => 'Цвет ссылок',
+				'label'   => 'Цвет ссылок',
 				'section' => 'colors',
 				'setting' => 'test_link_color',
 			)
@@ -94,3 +96,7 @@ $link = '<style type="text/css">
 echo $link;
 }
 add_action('wp_head', 'test_customize_css');
+
+add_action('customize_preview_init', function () {
+	wp_enqueue_script('test-customizejs', get_template_directory_uri() . '/assets/js/test-customize.js', array('jquery', 'customize-preview'), '', true);
+});
