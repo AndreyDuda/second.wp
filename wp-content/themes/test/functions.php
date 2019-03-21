@@ -27,6 +27,13 @@ function test_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => get_template_directory_uri() . '/assets/image/pipes.png',
 	));
+	add_theme_support('custom-header', array(
+		'default-image' => get_template_directory_uri() . '/assets/image/pipes.png',
+		'width'  => 2000,
+		'height' => 1300
+	));
+
+
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
 	add_image_size('mini-thumbnails', 100, 100, true);
@@ -56,3 +63,34 @@ function test_widget_init() {
 }
 
 add_action('widgets_init', 'test_widget_init');
+
+// Customizer
+function test_customize_register($wp_customize){
+	$wp_customize->add_setting('test_link_color', array(
+		'default' => '#007bff',
+		'sanitize_callback' => 'sanitize_hex_color',
+	));
+	$wp_customize->add_control(
+		new WP_Customize_Color_Control(
+			$wp_customize,
+			'test_link_color',
+			array(
+				'label' => 'Цвет ссылок',
+				'section' => 'colors',
+				'setting' => 'test_link_color',
+			)
+		)
+	);
+}
+add_action('customize_register', 'test_customize_register');
+
+function test_customize_css(){
+$color = get_theme_mod('test_link_color');
+
+$link = '<style type="text/css">
+    		a { color: ' . $color . ' }
+		 </style>';
+
+echo $link;
+}
+add_action('wp_head', 'test_customize_css');
