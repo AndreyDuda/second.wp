@@ -39,4 +39,24 @@
     </div>
 </div>
 
+<?php
+
+$query = new WP_Query(array(
+    'category_name' => 'edge-case-2,markup',
+    'posts_per_page' => -1,
+    'orderby'       => 'title',
+    'order'         => 'ASC'
+));
+
+if ($query->have_posts()) {
+
+    while ($query->have_posts()) {
+        $query->the_post();
+        echo '<h3>' . the_title() . '</h3>';
+    }
+}
+wp_reset_postdata();
+
+?>
+
 <?php get_footer(); ?>
