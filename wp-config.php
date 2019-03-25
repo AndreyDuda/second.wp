@@ -78,6 +78,7 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 define('FS_METHOD','direct'); // не запрашивать данные о сервере при работе с плагинами
+define('ALLOW_UNFILTERED_UPLOADS', true);
 
 /* Это всё, дальше не редактируем. Успехов! */
 
