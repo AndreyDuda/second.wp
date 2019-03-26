@@ -72,7 +72,7 @@
 			</div>
 		</div>
 		<div class="cards text-center">
-			<img src="images/cards.jpg" alt="" />
+			<img src="<?php bloginfo('template_directory') ?>/assets/images/cards.jpg" alt="" />
 		</div>
 		<div class="copyright text-center">
 			<p>© 2015 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
