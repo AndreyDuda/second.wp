@@ -1,0 +1,44 @@
+a.child_shipping_method {
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+    outline: 0;
+}
+.jem_table_rate_shipping_methods_list{
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+     font-weight: 400;
+    width: auto;
+}
+table.flexible_shipping_methods.wc_shipping th {
+   
+}
+span.status-enabled.tips {
+    width: auto;
+}
+input.tips.checkbox-select.chkItems{
+	text-align: center;
+    margin: 0;
+    width: auto;
+}
+input#checkall-checkbox-id{margin:0;}
+th.method_select{text-align:center;}
