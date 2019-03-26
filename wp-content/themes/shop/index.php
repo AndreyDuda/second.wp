@@ -55,7 +55,7 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="shop">
-				<a href="single.html">SHOP COLLECTION NOW</a>
+				<a href="<?php echo get_option('url_slide', '#') ?>"><?php echo get_option('button_slide', 'кнопка')?></a>
 			</div>
 		</div>
 	</div>
@@ -78,7 +78,7 @@
 				</div>
 				<div class="col-md-4 online-order">
 					<p>Order online</p>
-					<h3>Tel:999 4567 8902</h3>
+					<h3>Tel:<?php echo get_option('my_phone', 'ytn') ?></h3>
 				</div>
 				<div class="clearfix"></div>
 			</div>
