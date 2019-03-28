@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47471cba-210b-4669-ba77-3f6c9498ac8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shop/home-banner.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shop/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shop/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shop/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shop/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shop/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shop/navigation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,17 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+            <state relative-caret-position="1241">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="90">
+              <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -99,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/home-banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="59">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -111,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-438">
+            <state>
               <caret selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
@@ -181,14 +180,14 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/woocomerce/archive-product.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/shop/navigation.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/function.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/woocommerce/archive-product.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/shop/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shop/home-banner.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/shop/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/shop/navigation.php" />
       </list>
     </option>
   </component>
@@ -259,6 +258,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/test" />
@@ -312,7 +312,9 @@
       <workItem from="1553345182275" duration="325000" />
       <workItem from="1553349546784" duration="677000" />
       <workItem from="1553515324359" duration="3638000" />
-      <workItem from="1553600123468" duration="13940000" />
+      <workItem from="1553600123468" duration="14338000" />
+      <workItem from="1553805770470" duration="33000" />
+      <workItem from="1553805825980" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1552905463346</created>
@@ -461,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553623902141</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add slider and function for slider in admin panel">
+      <created>1553637673612</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553637673612</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60492000" />
+    <option name="totallyTimeSpent" value="63041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +489,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45037353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1638207" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -492,7 +501,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" weight="0.74215245" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" visible="true" weight="0.25672644" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994664" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053364" side_tool="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.14573991" />
@@ -548,7 +557,8 @@
     <MESSAGE value="cut theme" />
     <MESSAGE value="include script and style" />
     <MESSAGE value="add user's settings in admin panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user's settings in admin panel" />
+    <MESSAGE value="add slider and function for slider in admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add slider and function for slider in admin panel" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -742,13 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="504" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/index.html" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -762,30 +766,11 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/screenshot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/woocommerce/templates/archive-product.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/woocommerce/templates/archive-product.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/assets/css/flexslider.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/woocommerce/archive-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="20" selection-end-line="230" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/products.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/assets/js/jquery.flexisel.js">
@@ -797,10 +782,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/woocommerce/archive-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="20" selection-end-line="230" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -811,9 +803,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-438">
+        <state>
           <caret selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
@@ -825,31 +831,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/products.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/home-banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="59">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+        <state relative-caret-position="1241">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/home-banner.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shop/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="90">
+          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
         </state>
       </provider>
     </entry>

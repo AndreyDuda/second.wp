@@ -63,8 +63,8 @@ add_action('admin_menu', 'my_options');
 
 function banner_index() {
 	register_post_type('slider', array(
-		'public'        =>true,
-		'supports'      => array('title','editor','thumbnail'),
+		'public'        => true,
+		'supports'      => array('title', 'editor', 'thumbnail'),
 		'menu_position' => 120,
 		'menu_icon'     => admin_url().'images/media-button-other.gif',
 		'labels'        => array(
@@ -76,3 +76,29 @@ function banner_index() {
 	));
 }
 add_action('init', 'banner_index');
+
+
+register_nav_menus(array(
+	'top'    => 'Верхнее меню',
+	'bottom' => 'Меню футера'
+));
+
+class Custom_Walker_Nav_Menu  extends Walker_Nav_Menu {
+
+	public function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
+		$output .= "Link - ".$depth;
+	}
+
+	public function end_el(&$output, $item, $depth = 0, $args = array()) {
+
+	}
+
+	public function start_lvl(&$output, $depth = 0, $args = array()) {
+		$output .= "<ul>";
+	}
+
+	public function end_lvl(&$output, $depth = 0, $args = array()) {
+		$output .= "</ul>";
+	}
+
+}
